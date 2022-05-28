@@ -13,19 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Powered Start Bootstrap Template
-email: vidhyav656@gmail.com
-description: Stylish Portfolio is a responsive, one page portfolio theme for Bootstrap created by Start Bootstrap. The theme features multiple content sections with an off canvas navigation menu.
+title: Mathieu Ouellet, University of Pennsylvania
+email: ouellet@seas.upenn.edu
+description: complex systems, quantum mechanics and, ducks
 
-keywords: jekyll, bootstrap, jekyll-site, jekyll-website, html, bootstrap4, bootstrap-4, bootstrap-theme, bootstrap-template, portfolio-website, portfolio-theme, open-source, free, google-anaytics, github-pages
+keywords: complex systems, quantum mechanics, ducks
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ouelletmathieu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  vidhyav656
-facebook_username:  "#"
-twitter_username:  vidhyav656
-google_analytics_tracking_id: UA-129738661-1
+github_username:  ouelletmathieu
+facebook_username:  
+twitter_username:  academicmatou
+scholar_userid : X2HAC70AAAAJ
+linkedin_username : mathieu-ouellet-b557161a6
+
+google_analytics_tracking_id: 
 # Build settings
 markdown: kramdown
 theme: minima
