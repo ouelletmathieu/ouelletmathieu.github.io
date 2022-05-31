@@ -18,12 +18,12 @@ source "https://rubygems.org"
 
 # If you have any plugins, put them here!
 
-gem "jekyll"
-gem "minima"
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem "jekyll", "~> 4.2.0"
+gem "minima"
 gem 'jekyll-scholar'
 gem 'jekyll-archives'
 gem 'jekyll-diagrams'
