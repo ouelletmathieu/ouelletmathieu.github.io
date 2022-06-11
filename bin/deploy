@@ -5,7 +5,7 @@
 # Parse cmd arguments
 
 SRC_BRANCH="master"
-DEPLOY_BRANCH="master"
+DEPLOY_BRANCH="gh-pages"
 
 USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
 
@@ -17,8 +17,8 @@ while [[ $# > 0 ]]; do
         echo $USAGE_MSG
         exit 0
         ;;
-        -u|--user) 
-        SRC_BRANCH="master"
+        -u|--user)
+        SRC_BRANCH="source"
         DEPLOY_BRANCH="master"
         ;;
         -s|--src)
