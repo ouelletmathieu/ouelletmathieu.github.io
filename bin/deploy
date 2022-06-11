@@ -17,7 +17,7 @@ while [[ $# > 0 ]]; do
         echo $USAGE_MSG
         exit 0
         ;;
-        -u|--user)
+        -u|--user) 
         SRC_BRANCH="source"
         DEPLOY_BRANCH="master"
         ;;
