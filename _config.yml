@@ -48,7 +48,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
-  - jemoji
+  - jekyll-scholar
 incremental: true
 
 # -----------------------------------------------------------------------------
