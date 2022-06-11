@@ -49,6 +49,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jekyll-scholar
+  - jekyll-include-cache
 incremental: true
 
 # -----------------------------------------------------------------------------

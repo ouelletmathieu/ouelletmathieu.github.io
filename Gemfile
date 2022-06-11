@@ -38,6 +38,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem "webrick", "~> 1.7"
+    gem "jekyll-include-cache"
 end
 group :other_plugins do'/Users/mathieuouellet/Desktop/GitHub/ouelletmathieugithubio/bin/cibuild'
     gem 'httparty'
