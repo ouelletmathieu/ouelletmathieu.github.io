@@ -89,7 +89,8 @@ jekyll-archives:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ['index.html','.htaccess','_pages']
+include: ['index.html','.htaccess']
+#,'_pages']
 
 # Sitemap settings
 defaults:
