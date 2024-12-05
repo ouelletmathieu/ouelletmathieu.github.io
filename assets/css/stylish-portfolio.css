@@ -25,6 +25,13 @@ body {
   padding-bottom: 7.5rem;
 }
 
+
+.content-section-tight {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
 .content-section-heading h2 {
   font-size: 3rem;
 }
@@ -381,3 +388,21 @@ a:hover, a:focus, a:active {
 .row-centered {
   text-align:center;
   }
+
+.project-header {
+    background-color: #2C3E50;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.project-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}

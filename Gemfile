@@ -23,7 +23,6 @@ gem 'jekyll-scholar'
 group :jekyll_plugins do
     gem "jekyll", "~> 4.2.0"
     gem "minima"
-    gem 'jekyll-scholar'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
@@ -35,10 +34,10 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
     gem 'unicode_utils'
     gem "webrick", "~> 1.7"
     gem "jekyll-include-cache"
+	gem "jekyll-sass-converter", "2.2.0"
 end
 group :other_plugins do'/Users/mathieuouellet/Desktop/GitHub/ouelletmathieugithubio/bin/cibuild'
     gem 'httparty'
