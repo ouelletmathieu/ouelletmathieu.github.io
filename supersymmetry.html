@@ -29,25 +29,32 @@ layout: project
 
 
 
-<!-- Additional Images -->
-<section class="content-section-tight" style="min-height: 100px; display: flex;">
+
+<section class="content-section-tight">
     <div class="container">
-        <div class="row justify-content-center align-items-center" style="height: 500px;">
-            <div class="col-md-6 text-center">
-                <img src="{{ site.baseurl }}/assets/img/math_supersymetry.png" class="img-fluid mb-4" alt="Reflection Symmetry">
-                <p>Figure: Supersymmetric generalized power functions.</p>
+        <div class="row justify-content-center align-items-center">
+            <!-- First Image -->
+            <div class="col-md-6 col-sm-12 text-center mb-4">
+                <img src="{{ site.baseurl }}/assets/img/math_supersymetry.png" class="img-fluid" alt="Reflection Symmetry">
+                <p>
+                    Supersymmetric generalized power functions.
+                </p>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="{{ site.baseurl }}/assets/img/phi_trig.jpeg" class="img-fluid mb-4" alt="Cycle Length Distribution">
-                <p>Figure: Generalized Φ-trigonometric functions.</p>
+            <!-- Second Image -->
+            <div class="col-md-6 col-sm-12 text-center mb-4">
+                <img src="{{ site.baseurl }}/assets/img/phi_trig.jpeg" class="img-fluid" alt="Cycle Length Distribution">
+                <p>
+                    Generalized Φ-trigonometric functions.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
 
+
 <!-- Project Introduction -->
-<section class="content-section-tight">
+<section class="content-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -75,6 +82,8 @@ layout: project
 
 
 
+
+
 <style>
     section.content-section {
         margin-bottom: 0;
@@ -83,4 +92,29 @@ layout: project
     section.content-section + section.content-section {
         margin-top: 0;
     }   
+
+    section.content-section-tight img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            margin: 0 auto;
+        }
+
+        .col-sm-12 {
+            padding: 0 15px;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
   </style>
+  

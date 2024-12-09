@@ -21,6 +21,7 @@ layout: project
                 </p>
                 <p>
                     Originating from an ancestral symbiotic relationship with a prokaryotic organism, mitochondria retain their own genome, known as mitochondrial DNA (mtDNA). This unique evolutionary heritage makes the regulation of mtDNA within the mitochondrial network a critical aspect of cellular function. To investigate this, we analyzed the positioning of mtDNA within the network and studied how network dynamics influence mtDNA maintenance and activity, as well as how mtDNA contributes to the network's structural and functional behavior. Understanding these interdependencies sheds light on the broader roles mitochondria play in cellular homeostasis and disease.
+                <p>
             </div>
         </div>
     </div>
@@ -28,25 +29,26 @@ layout: project
 
 
 
-
-
-<!-- Additional Images -->
-<section class="content-section" style="min-height: 100px; display: flex;">
+<section class="content-section-tight">
     <div class="container">
-        <div class="row justify-content-center align-items-center" style="height: 500px;">
-            <div class="col-md-6 text-center">
-                <img src="{{ site.baseurl }}/assets/img/mitochondria_conn.jpg" class="img-fluid mb-4" alt="Reflection Symmetry">
-                <p>Decoding mitochondrial networks through confocal imaging.</p>
+        <div class="row justify-content-center align-items-center">
+            <!-- First Image -->
+            <div class="col-md-6 col-sm-12 text-center mb-4">
+                <img src="{{ site.baseurl }}/assets/img/mitochondria_conn.jpg" class="img-fluid" alt="Reflection Symmetry">
+                <p>
+                    Decoding mitochondrial networks through confocal imaging.
+                </p>         
             </div>
-            <div class="col-md-6 text-center">
-                <img src="{{ site.baseurl }}/assets/img/hema_point.png" class="img-fluid mb-4" alt="Cycle Length Distribution">
-                <p>Mitochondrial DNA (mtDNA) nucleoids.</p>
+            <!-- Second Image -->
+            <div class="col-md-6 col-sm-12 text-center mb-4">
+                <img src="{{ site.baseurl }}/assets/img/hema_point.png" class="img-fluid" alt="Cycle Length Distribution">
+                <p>
+                    Mitochondrial DNA (mtDNA) nucleoids.                
+                </p>            
             </div>
         </div>
     </div>
 </section>
-
-
 
 
 
@@ -87,6 +89,8 @@ layout: project
 
 
 
+
+
 <style>
     section.content-section {
         margin-bottom: 0;
@@ -95,4 +99,28 @@ layout: project
     section.content-section + section.content-section {
         margin-top: 0;
     }   
+
+    section.content-section-tight img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            margin: 0 auto;
+        }
+
+        .col-sm-12 {
+            padding: 0 15px;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
   </style>

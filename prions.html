@@ -18,15 +18,16 @@ layout: project
                 <h2 class="mb-4"></h2>
                 <p>
                     We explore the frontier of materials science with our research on mechanical prions—self-assembling structures inspired by biological prions. Our work introduces a biologically inspired model using bar-joint linkage systems to replicate the key properties of prions, including conformational change, self-replication, and polymerization. By combining theoretical modeling with experimental demonstrations, we propose designs for mechanical prions with potential applications in nanotechnology, drug delivery, and self-assembling materials. This work pioneers a new class of dynamic, programmable structures with transformative possibilities for both natural and synthetic systems.                </div>
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
 
 
-
-
 <!-- Additional Images -->
+<!--
 <section class="content-section-tight" style="min-height: 100px; display: flex;">
     <div class="container">
         <div class="row justify-content-center align-items-center" style="height: 500px;">
@@ -41,8 +42,29 @@ layout: project
         </div>
     </div>
 </section>
+-->
 
 
+<section class="content-section-tight">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <!-- First Image -->
+            <div class="col-md-6 col-sm-12 text-center mb-4">
+                <img src="{{ site.baseurl }}/assets/img/prion.jpg" class="img-fluid" alt="Reflection Symmetry">
+                <p>
+                    Mechanical Prion Tabletop Model.
+                </p>
+            </div>
+            <!-- Second Image -->
+            <div class="col-md-6 col-sm-12 text-center mb-4">
+                <img src="{{ site.baseurl }}/assets/img/math_prion.jpg" class="img-fluid" alt="Cycle Length Distribution">
+                <p>
+                    Mechanical Prions in Action.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -82,4 +104,29 @@ layout: project
     section.content-section + section.content-section {
         margin-top: 0;
     }   
+
+    section.content-section-tight img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            margin: 0 auto;
+        }
+
+        .col-sm-12 {
+            padding: 0 15px;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
   </style>
+  
